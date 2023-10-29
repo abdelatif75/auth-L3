@@ -47,7 +47,7 @@ public class Main extends JFrame implements ActionListener {
 
     public void connect() {
         try {
-            // Load the driver class
+           
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // this the please for  database information
