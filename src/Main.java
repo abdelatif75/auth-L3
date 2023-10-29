@@ -15,9 +15,9 @@ public class Main extends JFrame implements ActionListener {
     private Statement st;
     private ResultSet rs;
 
-    // Constructor
-    public Main() {
-        // Initialize components
+    
+    Main() {
+        
         userLabel = new JLabel("username:");
         passLabel = new JLabel("password:");
         userField = new JTextField(20);
@@ -92,10 +92,8 @@ public class Main extends JFrame implements ActionListener {
     }
 }
 
-// A class for an empty frame
 class EmptyFrame extends JFrame {
-    // Constructor
-    public EmptyFrame() {
+    EmptyFrame() {
         setTitle("new page");
         setSize(300, 300);
         setLocationRelativeTo(null);
